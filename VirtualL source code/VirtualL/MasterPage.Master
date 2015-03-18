@@ -1,0 +1,67 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="VirtualL.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="StyleSheet.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+      
+        <div class ="header">
+                  
+                      <div>
+              <table>
+              <tr>
+              <td align="center">
+
+                  <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="XX-Large" 
+                      ForeColor="Blue" Text="VIRTUAL LEARNING"></asp:Label>
+
+              </td>
+              </tr>
+              </table>
+              </div>
+             
+              <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Home.aspx" Text="Home"/>
+                        
+                        <asp:MenuItem Text="Information" Value="Information">
+                            <asp:MenuItem Text="G R E" NavigateUrl="~/GreInfot.aspx" Value="G R E"></asp:MenuItem>
+                            <asp:MenuItem Text="C A T" NavigateUrl ="~/CatInformationpage.aspx" Value="C A T"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Pattern" Value="Pattern">
+                            <asp:MenuItem Text=" G R E" NavigateUrl="~/GrePattern.aspx" Value=" G R E"></asp:MenuItem>
+                            <asp:MenuItem Text="C A T" NavigateUrl ="~/CatPatternpage.aspx" Value="C A T"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Strategies" Value="Strategies" NavigateUrl="~/strategies.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Registration Details" Value="Registration Details">
+                         <asp:MenuItem Text ="G R E" Value="G R E" NavigateUrl="~/RegDetail.aspx"></asp:MenuItem>
+                         <asp:MenuItem Text ="C A T" Value="C A T" NavigateUrl="~/CatRegdet.aspx"></asp:MenuItem>
+
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Mock Test" Value="Mock Test">
+                            <asp:MenuItem Text="G R E" Value="G R E" NavigateUrl ="~/Login.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="C A T" Value="C A T" NavigateUrl="~/Login.aspx"></asp:MenuItem>
+                        </asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+                 <div class="loginDisplay">
+
+            </div>
+        </div>
+    <div class="mystyle">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+        
+    </form>
+</body>
+</html>
+
