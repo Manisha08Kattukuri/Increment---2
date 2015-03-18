@@ -1,8 +1,0 @@
-c:\users\saiteja\documents\visual studio 2010\Projects\VirtualL\VirtualL\bin\VirtualL.dll
-c:\users\saiteja\documents\visual studio 2010\Projects\VirtualL\VirtualL\bin\VirtualL.pdb
-c:\users\saiteja\documents\visual studio 2010\Projects\VirtualL\VirtualL\obj\Debug\VirtualL.dll
-c:\users\saiteja\documents\visual studio 2010\Projects\VirtualL\VirtualL\obj\Debug\VirtualL.pdb
-C:\Users\Manisha\Downloads\VirtualL-2\VirtualL\VirtualL\bin\VirtualL.dll
-C:\Users\Manisha\Downloads\VirtualL-2\VirtualL\VirtualL\bin\VirtualL.pdb
-C:\Users\Manisha\Downloads\VirtualL-2\VirtualL\VirtualL\obj\Debug\VirtualL.dll
-C:\Users\Manisha\Downloads\VirtualL-2\VirtualL\VirtualL\obj\Debug\VirtualL.pdb
